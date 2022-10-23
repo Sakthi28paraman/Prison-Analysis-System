@@ -4,6 +4,10 @@ import './create.css'
 
 export default function Create(){
 
+    function Back(){
+            window.location.replace("http://localhost:3000/")
+    }
+
 //     const navigate  = useNavigate();
 //     const navigatetocreate = () =>{
 //         navigate('/Create')
@@ -60,7 +64,7 @@ export default function Create(){
                      <br />
                      <button className="paroleb1" variant = "contained" onClick={createparole}>Parole</button>
                 </div>
-
+            <button variant ="contained" className="Back" color="error" onClick={Back}>Back</button>
         </div>
     )
 }

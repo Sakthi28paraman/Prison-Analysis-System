@@ -5,12 +5,12 @@ const Prison = new Schema({
 
         Prison_Name : {type: String , required: true},
         Prison_ID : {type: String , required: true},
-        Prison_capacity : {type: Number , required: true},
-        Prison_City : {type: String , required: true},
-        Prison_State : {type: String , required: true},
-        Current_Prisoners:{type:Number , required:true},
-        No_of_Males:{type:Number , required:true},
-        No_of_Females:{type:Number , required:true}
+        Prison_capacity : {type: Number , required: false},
+        Prison_City : {type: String , required: false},
+        Prison_State : {type: String , required: false},
+        Current_Prisoners:{type:Number , required:false},
+        No_of_Males:{type:Number , required:false},
+        No_of_Females:{type:Number , required:false}
     },{collection:'Prison'}
 )
 

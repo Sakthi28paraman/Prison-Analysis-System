@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 
 const Parole = new Schema({
 
-        Parole_ID : {type: String , required: false},
+        Parole_ID : {type: String , required: true},
         Prisoner_ID : {type: String , required: true},
         No_of_Times : {type: Number , required: false},
         Out_year : {type: [String] , required: false},

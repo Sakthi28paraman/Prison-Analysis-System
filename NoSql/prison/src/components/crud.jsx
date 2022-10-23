@@ -6,7 +6,7 @@ export default function Form(){
         window.location.replace("http://localhost:3000/create")
     }
     const updatepage = () =>{
-        window.location.replace("http://locahost:3000/update")
+        window.location.replace("http://localhost:3000/update")
     }
     // const navigate  = useNavigate();
     // const navigatetocreate = () =>{

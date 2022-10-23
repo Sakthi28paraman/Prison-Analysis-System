@@ -5,13 +5,13 @@ const Punishment = new Schema({
 
         Punishment_ID : {type: String , required: true},
         Prisoner_ID : {type: String , required: true},
-        Punishment : {type: String , required: true},
-        Case_No : {type: Number , required: true},
-        Crime : {type:[String],required:true},
-        Sections : {type:  [String] , required: true},
-        Lawyer_Name : {type: String, required: true},
-        Court_City: {type: String ,required:true},
-        Court_State : {type: String , required: true},
+        Punishment : {type: String , required: false},
+        Case_No : {type: Number , required: false},
+        Crime : {type:[String],required:false},
+        Sections : {type:  [String] , required: false},
+        Lawyer_Name : {type: String, required: false},
+        Court_City: {type: String ,required:false},
+        Court_State : {type: String , required: false},
     },
        {collection:"Punishment"}
 )

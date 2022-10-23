@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Create from './components/create'
+import Update from './components/update'
 import CreatePrison from './create/prison'
 import CreateVisitor from './create/visitor'
 import CreateGuard from './create/guard'
@@ -15,8 +16,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-// import Create from './create';
-//import {BrowserRouter as Router} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +24,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}/>
         <Route path="/create" element={<Create />}/>
+        <Route path ="/update" element={<Update />} />
         <Route path="/CreatePrison" element={<CreatePrison />}/>
         <Route path="/CreatePrisoner" element={<CreatePrisoner />}/>
         <Route path="/CreateGuard" element={<CreateGuard />}/>
