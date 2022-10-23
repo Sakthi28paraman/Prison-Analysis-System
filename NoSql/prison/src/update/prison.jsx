@@ -53,7 +53,7 @@ function Prisonform(){
                     </tr>
                     <tr>
                     <td align="center" colspan="2" >
-                    <input type="submit" value="Submit" className="Submit"/>
+                    <input type="submit" value="Update" className="Submit"/>
                         &nbsp;&nbsp; <input type="reset" value="Reset" className="Reset"/>
                     </td>
                     </tr>
