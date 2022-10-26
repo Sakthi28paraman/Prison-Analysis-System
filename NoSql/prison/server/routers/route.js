@@ -17,4 +17,5 @@ router.post('/CreateVisitor',visitorQ.Createvisitor)
 
 router.post('/UpdatePrison',PrisonQ.updatePrison)
 
+router.get('/getprison',PrisonQ.getPrison)
 module.exports = router
